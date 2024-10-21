@@ -7,7 +7,7 @@ using Syncfusion.Pdf.Graphics;
 namespace Redaction {
     internal class Program {
         static void Main(string[] args) {
-
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY");
             RedactPDF();
             //RedactPDF_FillColor();
             //Redact_Image();
